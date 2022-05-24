@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+.fix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/*navigation bar start*/
+nav div{
+    font-size: 25px;
+}
+.menubar{
+    width: 33%;
+    float: left;
+    margin-top: 10px;
+}
+.menubar a{
+    margin-left: 25px;
+    font-size: 45px;
+}
+.logo{
+    float: left;
+    width: 33%;
+    color: #F6755E;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 45px;
+}
+.button{
+    width: 33%;
+    float: right;
+    text-align: right;
+    margin-top: 18px;
+}
+.button button{
+    padding: 15px 28px;
+    font-size: 20px;
+    margin-right: 15px;
+    background-color: whitesmoke;
+    border: 2px solid #fff;
+    border-radius: 7px;
+}
+/*end navigation bar*/
+/*start banner*/
+.banner{
+    width: 100%;
+    height: 800px;
+    background-image: url('../pic/intensify/banner.jpg');
+    background-size: cover;
+    background-position: center top;
+}
+.para{
+    position: relative;
+    top: 285px;
+    text-align: center;
+}
+.para h1{
+    color: #25A2C3;
+    font-size: 50px;
+    font-weight: 900 ;
+}
+.para p{
+    font-size: 24px;
+    font-weight: 500;
+}
+.para button{
+    margin-top: 15px;
+    padding: 15px 50px;
+    background-color: #F6755E;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+/*end banner*/
+/*midsector start*/
+.midsector div{
+    width: 33%;
+    margin-top: 100px;
+    float: left;
+}
+.midsector h1{
+    color: #25A2C3;
+}
+.info1{
+    text-align: right;
+}
+.img{
+    text-align: center;
+}
+.img img{
+    width: 55%;
+    margin: 0px auto;
+    border-radius: 50%;
+}
+.info2{
+    text-align:left;
+}
+/*midsector end*/
+
+/*orangeinfo start*/
+.orangeinfo{
+    width: 100%;
+    height: 400px;
+    margin-top: 90px;
+    padding: 100px 0;
+    background-color: #F6755E;
+}
+.orangeinfo div{
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 400;
+}
+/*orangeinfo end*/
+
+/*imgsector start*/
+.imgsector{
+    width: 70%;
+    margin: 150px auto;
+}
+.photo{
+    width: 31%;
+    margin-left: 15px;
+    border: 1px solid lightgrey;
+    float: left;
+}
+.imgsector img{
+    width: 100%;
+}
+.imgsector h1{
+    color: #37AAC9;
+    font-weight: 700;
+}
+.text{
+    margin-left: 28px;
+}
+/*imgsector end*/
+
+/*footer start*/
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: #25A2C3;
+    font-size: 20px;
+}
+.mainfooter{
+    width: 70%;
+    margin: 0px auto;
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+.mainfooter h1{
+    color: #fff;
+    font-weight: 900;
+}
+.link a{
+    text-decoration: none;
+    color: #fff;
+}
+.link i{
+    color: #F6755E;
+}
+hr{
+    width: 30%;
+    margin: 0 auto;
+}
+.copy{
+    width: 70%;
+    margin: 10px auto;
+    color: #fff;
+}
+/*footer end*/
+/*mediaqquery start*/
+@media only screen and (max-width:805px){
+    .para p{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width:1220px){
+    .orangeinfo div{
+        width: 90%;
+        font-size: 25.5px;
+    }
+}
+@media only screen and (max-width:1057px){
+    .photo{
+        width: 65%;
+        margin: 20px auto;
+        float: none;
+    }
+    .imgsector{
+        margin: 60px auto;
+    }
+}
+@media only screen and (max-width:1260px){
+    .midsector div{
+        width: 70%;
+        margin: 20px auto;
+        float: none;
+        text-align: center;
+    }
+    .img img{
+        width: 50%;
+    }
+}
+@media only screen and (max-width:1338px){
+    footer{
+        font-size: 15px;
+    }
+}
+
+/*mediaquery end*/

@@ -1,0 +1,261 @@
+    body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+}
+
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/*header start*/
+
+.header {
+    width: 100%;
+    height: 900px;
+    background-image: url(../pic/Hielo/images/slide01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+.header span {
+    color: #dfdfdf;
+}
+
+.nav {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.nav .left {
+    float: left;
+}
+
+.nav h3 {
+    float: right;
+}
+
+.banner {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 280px;
+    text-align: center;
+}
+
+.banner h5 {
+    letter-spacing: 5px;
+}
+
+.banner hr {
+    width: 20%;
+    margin: 0 auto;
+    color: #dfdfdf;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+
+/*header end*/
+
+
+/* twoimg start*/
+
+.twoimg {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.twoimg .box {
+    float: left;
+    margin: 50px 25px 50px 0px;
+    width: 46%;
+    background-color: white;
+}
+
+.twoimg .box img {
+    width: 100%;
+}
+
+.twoimg .box p {
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.twoimg .box hr {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.text {
+    text-align: left;
+    letter-spacing: 0px;
+    line-height: 25px;
+    padding: 25px;
+}
+
+.twoimg .box button {
+    padding: 8px;
+}
+
+
+/* twoimg end*/
+
+
+/*start fullwidth*/
+
+.fullwidth {
+    width: 100%;
+    height: 250px;
+    background-image: url(../pic/Hielo/images/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fullwidth div {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    top: 30%;
+    text-align: center;
+    color: #fff;
+}
+
+.fullwidth div p {
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+
+.fullwidth div hr {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.fullwidth div h1 {
+    margin: 9px;
+    font-size: 50px;
+}
+
+
+/*fullwidth end*/
+
+
+/*fourimg start*/
+
+.fourimg {
+    width: 70%;
+    margin: 100px auto;
+}
+
+.fourimg .head {
+    text-align: center;
+}
+
+.fourimg .head p {
+    letter-spacing: 4px;
+    color: gray;
+    font-weight: 600;
+}
+
+.fourimg .head hr {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.fourimg .head h1 {
+    font-size: 50px;
+}
+
+.fourimg .img {
+    width: 100%;
+}
+
+.fourimg .img img {
+    width: 44%;
+    float: left;
+    margin-right: 15px;
+    padding: 15px;
+    background-color: white;
+}
+
+
+/*fourimg end*/
+
+
+/*footer start*/
+
+footer {
+    width: 100%;
+    height: 250px;
+    color: #dfdfdf;
+    background-color: black;
+    text-align: center;
+    font-size: 25px;
+}
+
+footer i {
+    margin-top: 70px;
+    padding: 5px;
+    color: #dfdfdf;
+}
+
+
+/*footer end*/
+
+
+/*mediaquery start*/
+
+@media only screen and (max-width:1645px) {
+    .twoimg {
+        width: 95%;
+    }
+    @media only screen and (max-width:1155px) {
+        .banner h1 {
+            font-size: 70px;
+        }
+        .fourimg .head p {
+            letter-spacing: 2px;
+        }
+        .twoimg {
+            width: 95%;
+        }
+        .fullwidth div {
+            width: 80%;
+        }
+        .fullwidth div p {
+            letter-spacing: 1.5px;
+        }
+        .fourimg .img img {
+            width: 100%;
+            float: none;
+        }
+    }
+    @media only screen and (max-width:840px) {
+        .twoimg .box {
+            width: 95%;
+            float: none;
+        }
+        .fullwidth div p {
+            letter-spacing: 0.5px;
+        }
+        .fullwidth div h1 {
+            font-size: 35px;
+        }
+        .fourimg .head h1 {
+            font-size: 34px;
+        }
+    }
+    /*mediaquery end*/
